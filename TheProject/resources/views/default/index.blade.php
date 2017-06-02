@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>@yield('page-title')</title>
+        @include('default.style')
+    </head>
+    <body>
+        @yield('content-body')
+    </body>
+</html>
+@include('default.script')
